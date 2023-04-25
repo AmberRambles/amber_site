@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^animal\-generator\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.animal\-generator\.com$
+RewriteRule ^/?$ "HTTPS\:\/\/www\.ambershifflett\.com\/generator\.html" [R=301,L]
+
