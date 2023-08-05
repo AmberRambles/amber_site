@@ -2,26 +2,46 @@
 ----------------------------*/
 html {
     font-size: 22px;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-    margin: 0;
+    margin: 5%;
     background-color: rgb(215,215,215);
     text-align: center;
 }
 
 p{
-    /*line-height: 1.5;*/
     margin: 0.5rem 2rem;
 }
 
 ul{
-    text-align: left;
+    text-align: center;
+    list-style: none;
 }
 
-.page-wrapper{
-    margin: 0 15%;
+li{
+    margin: 5%
+}
+
+li a{
+    text-decoration: none;
+    color: purple;
+    font-size: 2rem;
+    border: 4px dotted white;
+    border-radius: 4px;
+    padding: 1%;
+    background-color: cyan;
+}
+
+li a:visited{
+    color: red;
+}
+
+li a:hover{
+    background-color: darkcyan;
+    color: fuchsia;
+    border-color: black;
 }
 
 a:hover{
@@ -37,105 +57,12 @@ header{
     font-family: 'Cinzel', serif;
 }
 
-.headerLogoWrap{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#logo{
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    background-color: rgba(228, 142, 245, 0.3);
-    border-radius: 45px;
-    border-right: 0.25rem;
-}
-
 header h1{
-    
+    border: 1rem outset #999;
     font-size: 3.3rem;
-    margin-top: 0px;
-    margin-bottom: 0;
     display: inline-block;
+    padding: 0px 6px;
 }
-
-header h2{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.tab button{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
-}
-
-.tabcontent h3{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.25rem;
-}
-
-.tabcontent p{
-    font-family: 'Inconsolata', monospace; 
-}
-
-figure img{
-    width: 100%;
-}
-
-#quote{
-    font-family: 'Indie Flower', cursive;
-    font-size: 1.5rem;
-    text-align: center;
-    color:rgb(66, 14, 77);
-    background-color: rgba(212, 167, 248, 0.5);
-    border-radius: 13px;
-	padding: 0.5rem;
-}
-
-.contact-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.logo-link {
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    overflow: hidden;
-}
-
-.logo-link img {
-    width: 100%;
-    height: 100%;
-}
-
-/*  Footer 
-----------------------------*/
-/*footer{
-	position: sticky;
-	bottom: 0px;
-	right: 10px;
-}*/
-
-footer h6{
-    margin: 0.75rem 0 0.25rem;
-    text-align: right;
-    font-weight: 400;
-}
-
-footer h6 span{
-    color: red;
-}
-
-footer h6 a:hover {
-    background-color: black;
-    color: red;
-    border-radius: 4px;
-}
-
 
 /*   Mobile Adjustments
 -----------------------------*/
