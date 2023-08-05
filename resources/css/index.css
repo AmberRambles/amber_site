@@ -114,11 +114,11 @@ figure img{
 
 /*  Footer 
 ----------------------------*/
-footer{
+/*footer{
 	position: sticky;
 	bottom: 0px;
 	right: 10px;
-}
+}*/
 
 footer h6{
     margin: 0.75rem 0 0.25rem;
