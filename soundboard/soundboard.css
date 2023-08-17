@@ -1,0 +1,35 @@
+html{
+    font-size: 18px;
+    background-color: black;
+}
+
+main{
+    display: flex;
+    gap: 0.5rem;
+}
+
+main a:link{
+    background-color: green;
+    padding: 1rem;
+    color: white;
+    border: 0.5rem silver outset;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+main a:visited{
+    color: white;
+}
+
+main a:hover{
+    cursor: crosshair;
+
+}
+
+main a:focus{}
+
+main a:active{
+    border: 0.5rem silver inset;
+    background-color: darkgreen;
+    color: silver;
+}
