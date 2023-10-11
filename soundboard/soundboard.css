@@ -33,3 +33,11 @@ main a:active{
     background-color: darkgreen;
     color: silver;
 }
+
+footer p{
+    color: #000;
+    background-color: #888;
+    padding: 0.5rem;
+    border: 0.5rem gray outset;
+    display: inline-block;
+}
