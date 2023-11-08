@@ -3,8 +3,48 @@
 <head>
 <meta charset="utf-8">
 <title>Hey Girl~</title>
+<style>
+html{
+    background-color: black;
+    color: hotpink;
+    font-size: 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+#clickHereButton {
+    border: 4px outset pink;
+    padding: 8px;
+    background-color: pink;
+    color: black;
+}
+#clickHereButton:hover {
+    cursor: pointer;
+}
+#clickHereButton:active {
+    border: 4px inset pink;
+}
+</style>
 </head>
 
 <body>
+    <main id="main">
+        <h2 class="questions">Who's my good girl?</h2>
+        <h1 class="answers">You Are!</h1>
+        <h2 class="questions">Who's my dirty slut?</h2>
+        <h1 class="answers">You Are!</h1>
+        <h2 class="questions">Who's going to goon for me?</h2>
+        <h1 class="answers">You Are!</h1>
+        <button id="clickHereButton" onclick="clicked()">Click Here</button>
+    </main>
 </body>
+<script type="text/javascript">
+    function clicked() {
+        document.getElementById("main").innerHTML = "<h1>Get to it!</h1>";
+    }
+</script>
 </html>
