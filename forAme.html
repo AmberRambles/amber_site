@@ -8,6 +8,7 @@ html{
     background-color: black;
     color: hotpink;
     font-size: 20px;
+    font-family: sans-serif;
 }
 main {
     display: flex;
@@ -18,12 +19,15 @@ main {
 }
 #clickHereButton {
     border: 4px outset pink;
+    border-radius: 4px;
     padding: 8px;
     background-color: pink;
     color: black;
+    font-size: 1rem;
 }
 #clickHereButton:hover {
     cursor: pointer;
+    font-weight: 600;
 }
 #clickHereButton:active {
     border: 4px inset pink;
@@ -39,7 +43,7 @@ main {
         <h1 class="answers">You Are!</h1>
         <h2 class="questions">Who's going to goon for me?</h2>
         <h1 class="answers">You Are!</h1>
-        <button id="clickHereButton" onclick="clicked()">Click Here</button>
+        <button id="clickHereButton" onclick="clicked()">Ready?</button>
     </main>
 </body>
 <script type="text/javascript">
