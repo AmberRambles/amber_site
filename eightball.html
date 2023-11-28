@@ -30,7 +30,9 @@
             align-items: center;
             justify-content: center;
         }
-        
+        #outputBin{
+            font-size: 24px;
+        }
         </style>
         
     </head>
@@ -42,7 +44,7 @@
         <main>
             <div id="eightBallDiv">
                 <div id="resultsCicle">
-                    <output>TEST OUTPUT</output>    
+                    <output id="outputBin">8</output>    
                 </div>
             </div>
             <div id="questionDiv">
@@ -56,13 +58,45 @@
     <script type="text/javascript">
         function ask() {
             //set input box to variable
-            let askBox = document.getElementById("questionInput")
+            let askBox = document.getElementById("questionInput");
             //set the user question to a variable
             let askValue = askBox.value;
-            console.log(askValue);
+            //console.log(askValue);
+            //get output box
+            let outBox = document.getElementById("outputBin");
             //reset the input box
             askBox.value = "";
-            randNum = Math.floor(Math.random() * numOptions); //returns 0 thru numOpttions - 1
+            let randNum = Math.floor(Math.random() * 8); //returns 0 thru 7
+            //console.log(randNum);
+            switch (randNum) {
+                case 0:
+                    outBox.innerHTML = "Definitely Yes!";
+                    break;
+                case 1:
+                    outBox.innerHTML = "The stars say yes";
+                    break;
+                case 2:
+                    outBox.innerHTML = "Ask again another day";
+                    break;
+                case 3:
+                    outBox.innerHTML = "Perhaps, yes";
+                    break;
+                case 4:
+                    outBox.innerHTML = "I think not";
+                    break;
+                case 5:
+                    outBox.innerHTML = "This future is unknown";
+                    break;
+                case 6:
+                    outBox.innerHTML = "Sorry, its a no";
+                    break;
+                case 7:
+                    outBox.innerHTML = "Absolutely Not";
+                    break;
+                default:
+                    outBox.innerHTML = "Error";
+                    break;
+            }
         }
     </script>
 </html>
