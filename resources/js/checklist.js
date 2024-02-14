@@ -57,6 +57,7 @@ function add () {
     }
     else{
         let inputItem = document.getElementById("textInput").value;
+        document.getElementById("textInput").value = "";
         let listItem = document.createElement("input");
         let listLabel = document.createElement("label");
 		let listItemRemoveButton = document.createElement("input");
