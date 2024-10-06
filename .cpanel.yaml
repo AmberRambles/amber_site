@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nxy5twvvfgyi/public_html/
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R resources $DEPLOYPATH
+    - /bin/cp .gitignore $DEPLOYPATH
+    - /bin/cp 404.shtml $DEPLOYPATH
+    - /bin/cp apps.html $DEPLOYPATH
+    - /bin/cp checklist.html $DEPLOYPATH
+    - /bin/cp countdown.html $DEPLOYPATH
+    - /bin/cp eightball.html $DEPLOYPATH
+    - /bin/cp generator.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp scratch.js $DEPLOYPATH
