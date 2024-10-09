@@ -3,4 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/nxy5twvvfgyi/public_html/
     - /bin/cp -R images resources $DEPLOYPATH
-    - /bin/cp .gitignore 404.shtml apps.html checklist.html countdown.html eightball.html generator.html index.html scratch.js $DEPLOYPATH
+    - /bin/cp .gitignore 404.shtml apps.html checklist.html countdown.html eightball.html generator.html index.html scratch.js services.html software_dev_index.html style.css $DEPLOYPATH
