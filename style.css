@@ -1,1 +1,14 @@
-html{ font-size: 18pt; }
+html{
+    font-size: 18pt;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
