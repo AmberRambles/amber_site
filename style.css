@@ -1,5 +1,5 @@
 html{
-    font-size: 18pt;
+    font-size: 20pt;
     text-align: center;
     background-color: antiquewhite;
 }
@@ -29,4 +29,19 @@ nav ul li a:hover{
     color: white;
 }
 
+
+@media only screen and (max-width: 1079px){
+    html{ font-size: 18px; }
+}
+
+@media only screen and (max-width: 999px){
+    html{ font-size: 17px; }
+}
+
+@media only screen and (max-width: 659px){
+    html{ font-size: 16px; }
+}
+
+@media only screen and (max-width: 290px){
+    html{ font-size: 15px; }
 }
